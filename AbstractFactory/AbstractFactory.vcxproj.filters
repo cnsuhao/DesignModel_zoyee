@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="猫屋">
+      <UniqueIdentifier>{6e1680df-300b-4e10-a86d-e7cb4fd02df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种">
+      <UniqueIdentifier>{8aa1ff20-a7bd-482d-8ca7-e9a8edf31e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\本地猫">
+      <UniqueIdentifier>{48dd856d-1193-4d24-bc39-3d3f9d0ffd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\进口猫">
+      <UniqueIdentifier>{2fee82e6-9673-4f4e-bf6f-23c019c04ca6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICatHouse.h">
+      <Filter>猫屋</Filter>
+    </ClInclude>
+    <ClInclude Include="ICat.h">
+      <Filter>猫种</Filter>
+    </ClInclude>
+    <ClInclude Include="INativeCat.h">
+      <Filter>猫种\本地猫</Filter>
+    </ClInclude>
+    <ClInclude Include="IForeignCat.h">
+      <Filter>猫种\进口猫</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ICatHouse.cpp">
+      <Filter>猫屋</Filter>
+    </ClCompile>
+    <ClCompile Include="ICat.cpp">
+      <Filter>猫种</Filter>
+    </ClCompile>
+    <ClCompile Include="INativeCat.cpp">
+      <Filter>猫种\本地猫</Filter>
+    </ClCompile>
+    <ClCompile Include="IForeignCat.cpp">
+      <Filter>猫种\进口猫</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
