@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="猫屋">
+      <UniqueIdentifier>{488242a4-381e-46cb-b680-81e54ccd8d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种">
+      <UniqueIdentifier>{d828c1ed-cd27-477b-9ab9-80dca472674a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\美短">
+      <UniqueIdentifier>{b2ceeb5f-dd91-4190-affb-2b26fc5634fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\波斯">
+      <UniqueIdentifier>{20594e45-2e9d-40a4-8f6e-8fb2b0e5c7ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AmericanShortHairCat.h">
+      <Filter>猫种\美短</Filter>
+    </ClInclude>
+    <ClInclude Include="PussyCat.h">
+      <Filter>猫种\波斯</Filter>
+    </ClInclude>
+    <ClInclude Include="ICat.h">
+      <Filter>猫种</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCatHouse.h">
+      <Filter>猫屋</Filter>
+    </ClInclude>
+    <ClInclude Include="CatList.h">
+      <Filter>猫种</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AmericanShortHairCat.cpp">
+      <Filter>猫种\美短</Filter>
+    </ClCompile>
+    <ClCompile Include="PussyCat.cpp">
+      <Filter>猫种\波斯</Filter>
+    </ClCompile>
+    <ClCompile Include="ICat.cpp">
+      <Filter>猫种</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCatHouse.cpp">
+      <Filter>猫屋</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+</Project>

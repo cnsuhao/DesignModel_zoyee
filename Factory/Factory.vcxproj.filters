@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="猫种">
+      <UniqueIdentifier>{4618e2d1-b0fc-432f-93ff-53556e478a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\美短">
+      <UniqueIdentifier>{6f81f205-f581-4d20-8ea1-262f7c5bd1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫种\波斯">
+      <UniqueIdentifier>{c8e79ebb-876e-42be-a74a-5749e31f37c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫屋">
+      <UniqueIdentifier>{46dbefba-af50-44cd-b889-119b40f74d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫屋\美短猫屋">
+      <UniqueIdentifier>{8f9bd00d-9cdc-452f-bf9a-608dbf05e0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="猫屋\波斯猫屋">
+      <UniqueIdentifier>{3c9035b6-1665-481f-9d61-7b55e165d50d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICat.h">
+      <Filter>猫种</Filter>
+    </ClInclude>
+    <ClInclude Include="AmericanShortHairCat.h">
+      <Filter>猫种\美短</Filter>
+    </ClInclude>
+    <ClInclude Include="PussyCat.h">
+      <Filter>猫种\波斯</Filter>
+    </ClInclude>
+    <ClInclude Include="ICatHouse.h">
+      <Filter>猫屋</Filter>
+    </ClInclude>
+    <ClInclude Include="PussyCatHouse.h">
+      <Filter>猫屋\波斯猫屋</Filter>
+    </ClInclude>
+    <ClInclude Include="AmericanShortHairCatHouse.h">
+      <Filter>猫屋\美短猫屋</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICat.cpp">
+      <Filter>猫种</Filter>
+    </ClCompile>
+    <ClCompile Include="AmericanShortHairCat.cpp">
+      <Filter>猫种\美短</Filter>
+    </ClCompile>
+    <ClCompile Include="PussyCat.cpp">
+      <Filter>猫种\波斯</Filter>
+    </ClCompile>
+    <ClCompile Include="ICatHouse.cpp">
+      <Filter>猫屋</Filter>
+    </ClCompile>
+    <ClCompile Include="PussyCatHouse.cpp">
+      <Filter>猫屋\波斯猫屋</Filter>
+    </ClCompile>
+    <ClCompile Include="AmericanShortHairCatHouse.cpp">
+      <Filter>猫屋\美短猫屋</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
