@@ -1,9 +1,49 @@
-﻿生成启动时间为 2015/12/14 16:21:01。
-     1>项目“D:\Zoyee\CppDesignModel\Property\Property.vcxproj”在节点 3 上(clean 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\Property.lastbuildstate”。
-     1>已完成生成项目“D:\Zoyee\CppDesignModel\Property\Property.vcxproj”(clean 个目标)的操作。
+﻿生成启动时间为 2015/12/30 15:31:38。
+     1>项目“D:\Zoyee\CppDesignModel\DesignModel_zoyee\Property\Property.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Property.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AmericanShortHairCat.cpp ICat.cpp main.cpp PussyCat.cpp
+         PussyCat.cpp
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\pussycat.cpp(5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\pussycat.cpp(6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\pussycat.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         main.cpp
+         ICat.cpp
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\icat.cpp(6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\icat.cpp(7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         AmericanShortHairCat.cpp
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\americanshorthaircat.cpp(6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\americanshorthaircat.cpp(7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\zoyee\cppdesignmodel\designmodel_zoyee\property\americanshorthaircat.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Property.exe.embed.manifest.res" Debug\Property_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Zoyee\CppDesignModel\DesignModel_zoyee\Debug\Property.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Property.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Zoyee\CppDesignModel\DesignModel_zoyee\Debug\Property.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Zoyee\CppDesignModel\DesignModel_zoyee\Debug\Property.lib" /MACHINE:X86 Debug\Property.exe.embed.manifest.res
+         Debug\AmericanShortHairCat.obj
+         Debug\ICat.obj
+         Debug\main.obj
+         Debug\PussyCat.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Property.exe.embed.manifest" /manifest Debug\Property.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Property.vcxproj -> D:\Zoyee\CppDesignModel\DesignModel_zoyee\Debug\Property.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Property.unsuccessfulbuild”。
+         正在对“Debug\Property.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Zoyee\CppDesignModel\DesignModel_zoyee\Property\Property.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.01
+已用时间 00:00:01.71
